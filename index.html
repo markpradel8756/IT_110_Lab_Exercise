@@ -1,0 +1,101 @@
+<!-- FULL NAME: Mark Gabriel S. Pradel -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NRCP homepage recreation for an HTML/CSS laboratory exercise.">
+    <title>National Research Council of the Philippines | NRCP</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="topbar">
+        <!-- navigation -->
+        <nav class="nav-container" aria-label="Primary navigation">
+            <a class="govph" href="#govph">GOVPH</a>
+            <a href="#home">Home</a>
+            <a href="#transparency">Transparency <span class="caret">▼</span></a>
+            <a href="#services" class="active">Thrust/Services <span class="caret">▼</span></a>
+            <a href="#links">Linkages <span class="caret">▼</span></a>
+            <a href="#privacy">NRCP Data Privacy Statement</a>
+            <a href="#contact">Contact Us <span class="caret">▼</span></a>
+            <div class="nav-search">
+                <input type="search" aria-label="Search" placeholder="Search ...">
+            </div>
+            <button class="accessibility" type="button" aria-label="Accessibility options">
+                <i class="fa fa-universal-access" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="agency-header agency-banner">
+        <!-- NRCP logo and agency information -->
+        <div class="agency-content">
+            <div class="agency-brand">
+                <img src="images/logos/nrcp-logo.png" alt="National Research Council of the Philippines logo" class="nrcp-logo">
+                <div class="agency-text">
+                    <p>Republic of the Philippines</p>
+                    <h1>NATIONAL RESEARCH COUNCIL OF THE PHILIPPINES</h1>
+                    <p>Department of Science and Technology</p>
+                </div>
+            </div>
+
+            <div class="official-logos" aria-label="Government seals and logos">
+                <img src="images/logos/transparency-seal.png" alt="Philippine Transparency Seal">
+                <img src="images/logos/foi-logo.png" alt="Freedom of Information Philippines logo">
+                <img src="images/logos/arta-logo.png" alt="Anti-Red Tape Authority logo">
+            </div>
+        </div>
+    </section>
+
+    <div class="time time-panel" aria-live="polite">
+        <!-- Philippine Standard Time -->
+        <span>Philippine Standard Time:</span>
+        <strong id="pst-time">Loading...</strong>
+    </div>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <!-- banner/image and overlaid content -->
+            <h2 id="hero-title" class="sr-only">NRCP homepage banner</h2>
+            <div class="hero-frame">
+                <img src="images/banner/nrcp-banner-reference.jpg" alt="NRCP Events banner showing the online platform and portal for NRCP events and calendar of activities">
+            </div>
+        </section>
+
+        <section class="quick-links" aria-label="NRCP quick links">
+            <a href="#services" class="quick-card">
+                <span class="quick-icon">⌘</span>
+                <span><b>Thrust/Services</b><small>Explore NRCP programs and services</small></span>
+            </a>
+            <a href="#links" class="quick-card">
+                <span class="quick-icon">↗</span>
+                <span><b>Linkages</b><small>Access partner and government resources</small></span>
+            </a>
+            <a href="#contact" class="quick-card">
+                <span class="quick-icon">✉</span>
+                <span><b>Contact Us</b><small>Get in touch with NRCP</small></span>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <!-- footer -->
+        <div class="footer-content">
+            <div>
+                <strong>National Research Council of the Philippines</strong>
+                <p>Department of Science and Technology</p>
+            </div>
+            <div class="footer-links">
+                <a href="#official-website">Official Website</a>
+                <a href="#privacy">Privacy Statement</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+        <p class="copyright">© 2026 National Research Council of the Philippines. Recreated for educational purposes.</p>
+    </footer>
+
+</body>
+</html>
